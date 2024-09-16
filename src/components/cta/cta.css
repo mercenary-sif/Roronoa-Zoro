@@ -1,0 +1,74 @@
+.zoro__cta{
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: linear-gradient(24deg, rgba(7, 58, 187, 1) 0%, rgba(23, 117, 193, 1) 50%, rgba(233, 30, 99, 1) 100%);
+}
+
+.zoro__cta-content p{
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #0e0e0e;;
+}
+.zoro__cta-content h3{
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.zoro__cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.zoro__cta-btn button{
+    background-color: #000000;
+    border-radius: 5vh;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font);
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem 1rem;
+    outline: none;
+    max-width: 150px;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+@media screen and (max-width : 650px){
+    .zoro__cta{
+        flex-direction: column;
+    }
+    .zoro__cta-btn{
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width : 550px){
+    .zoro__cta{
+        margin: 2rem 4rem;
+    }
+    .zoro__cta-content P{
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .zoro__cta-content h3{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .zoro__cta-btn button{
+        font-size: 14px;
+        line-height: 28px;
+    }
+}

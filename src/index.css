@@ -1,0 +1,8 @@
+:root{
+    --font : "Manrope", sans-serif;
+    --color-bg:  linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(62, 63, 63, 1) 53%, rgba(11, 18, 36, 1) 100%);
+    --color-footer: #082444;
+    --color-blog: #81dadd;
+    --color-subtext: #ff71d4;
+    --gradient-text:  linear-gradient(90deg, rgba(2, 193, 255, 1) 0%, rgba(4, 205, 145, 1) 51%, rgba(238, 9, 133, 1) 98%);
+}

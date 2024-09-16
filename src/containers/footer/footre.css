@@ -1,0 +1,131 @@
+.zoro__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer);
+}
+
+.zoro__footer-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.zoro__footer-heading h1{
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.2rem;
+}
+
+.zoro__footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-bottom: 8rem;
+}
+.zoro__footer-btn p{
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.zoro__footer-btn p:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.zoro__footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+.zoro__footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+
+.zoro__footer-links_logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.zoro__footer-links_logo img{
+    width: 150px;
+    height: 90px ;
+    margin-bottom: 1rem;
+}
+
+.zoro__footer-links_logo p{
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+}
+.zoro__footer-links_logo_div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.zoro__footer-links_logo_div h4{
+    font-family: var(--font);
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-bottom: 1rem;    
+}
+.zoro__footer-links_logo_div p{
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    margin: 0.5rem 0;   
+    cursor: pointer; 
+}
+
+.zoro__footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.zoro__footer-copyright p{
+    font-family: var(--font);
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff  ;
+}
+
+@media screen and (max-width : 850px){
+    .zoro__footer-heading h1{
+        font-size: 40px;
+        line-height: 50px;
+    }   
+}
+
+@media screen and (max-width : 550px){
+    .zoro__footer-heading h1{
+        font-size: 28px;
+        line-height: 35px;
+    }   
+    .zoro__footer-links_logo div{
+        margin: 1rem 0;
+    }
+    .zoro__footer-btn p{
+        font-size: 12px;
+        line-height: 16px;
+    } 
+}
+
+

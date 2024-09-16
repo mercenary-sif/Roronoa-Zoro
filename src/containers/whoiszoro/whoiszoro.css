@@ -1,0 +1,110 @@
+.zoro__whoiszoro{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--color-footer);
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(12, 1, 21, 1) 0%, rgba(28, 18, 181, 1) 45%, rgba(9, 51, 84, 1) 81%);
+}
+
+.zoro__whoiszoro-feature{
+    display: flex;
+}
+.zoro__whoiszoro-feature ,
+.zoro__whoiszoro-container__feature{
+    margin: 0;
+}
+.zoro__whoiszoro-feature ,
+.zoro__whoiszoro-container__feature-text{
+   max-width:95%;
+}
+.zoro__whoiszoro-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+
+.zoro__whoiszoro-heading h1{
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 38px;
+    max-width: 50%;
+    line-height: 45px;
+}
+.zoro__whoiszoro-heading p{
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 50%;
+    line-height: 30px;
+    color: var( --color-subtext);
+    cursor: pointer;
+}
+
+.zoro__whoiszoro-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    gap: 1rem; 
+    margin-top: 2rem;
+}
+.zoro__whoiszoro-container .zoro__features-container__feature {
+    flex-direction: column;
+   
+}
+
+
+
+@media screen and (max-width : 850px){
+    .zoro__whoiszoro-container{
+       display: flex;
+       flex-direction: column;
+    }
+    .zoro__whoiszoro-heading{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .zoro__whoiszoro-heading h1{
+        font-size: 25px;
+        max-width: 90%;
+        line-height: 35px;
+    }
+    .zoro__whoiszoro-heading p {
+        margin-top: 1rem;
+    }
+}
+
+
+@media screen and (max-width : 650px){
+    .zoro__whoiszoro-feature ,
+    .zoro__whoiszoro-container{
+        flex-direction: column;
+    }
+    .zoro__whoiszoro-feature ,
+     .zoro__whoiszoro-container__feature{
+    margin-top: 1rem;
+}
+    .zoro__whoiszoro-heading h1{
+        font-size: 18px;
+        max-width: 90%;
+        line-height: 25px;
+    }
+    .zoro__whoiszoro-heading p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width : 490px){
+   
+    .zoro__whoiszoro-heading h1{
+        font-size: 10px;
+        max-width: 100%;
+        line-height: 16px;
+    }
+    .zoro__whoiszoro-heading p{
+        font-size: 8px;
+        line-height: 12px;
+    }
+}
